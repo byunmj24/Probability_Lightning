@@ -1,0 +1,1848 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<html>
+<head>
+<!-- 
+<link rel="stylesheet" href="http://www.index.go.kr/common_2015/css/common.css" type="text/css" /> 
+<link rel="stylesheet" href="http://www.index.go.kr/common_2015/css/layout.css" type="text/css" />
+<link rel="stylesheet" href="http://www.index.go.kr/common_2015/css/contents.css" type="text/css" />
+ -->
+ 
+</head>
+<body class="pop_body">
+<div class="pop_wrap">
+	
+    <div class="pop_content_01">
+        
+      <!--지표상세설명 영역 시작-->
+            <div class="index_view">
+            	<strong style="font-size:28px;">지역별 인구 및 인구밀도</strong>
+                <ul class="in_navi">
+	                		<strong style="margin-top:10px;">영역별 : </strong>
+																	
+								
+									&nbsp;&nbsp;경제.사회.환경 &gt;
+								
+								
+				              	
+																	
+								
+								
+									인구 &gt;
+				            	
+				              	
+																	
+								
+								
+				              	
+									<span>
+										인구변화
+									</span>
+									 
+								
+							     
+													                   
+	                    <br/>
+	                		<strong>부처별 : </strong>  
+		                											
+									&nbsp;&nbsp;청단위기관</a>&nbsp;&nbsp;&gt;
+									<span>								
+										통계청																
+									</span>    
+		                		  
+		                           
+	                    
+                </ul>                
+                
+				<!----------- 그래프 시작 ------------->	       
+				<h3 style="margin-top:50px; font-size:24px; font-weight:bold;">그래프/통계표</h3>
+				<h3 style="margin-top:10px; font-size:18px; font-weight:bold;"> ○ 그래프</h3>       
+         		<div class="graph">
+					
+									<div class="swf_box" style="width:630px;height:360px">
+									   
+									   								
+									<img src="http://www.index.go.kr/rMate/jsp/images/rMateChart_1007011.png"/>
+									</div>
+									
+									<p class="h8 tmar_20"><strong>출처 : </strong>통계청「장래인구추계 시도편 : 2017-2047」, 국토교통부「지적통계」</p>
+									
+									
+									<p class="h8 tmar_20"><strong>주석 : </strong>* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</p>
+									
+									<!--  
+									<p class="h8 tmar_20" style="float:left;"><strong>주석 : </strong></p>
+									<div class="left" style="float:left;">
+										<ul style="align:left;margin-bottom:20px;float:left;">
+											<label for="result_cntn11">* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</label>																  
+										</ul>
+									</div>
+									-->									
+									
+							
+									<div class="swf_box" style="width:630px;height:360px">
+									   
+									   								
+									<img src="http://www.index.go.kr/rMate/jsp/images/rMateChart_1007012.png"/>
+									</div>
+									
+									<p class="h8 tmar_20"><strong>출처 : </strong>통계청「장래인구추계 시도편 : 2017-2047」, 국토교통부「지적통계」</p>
+									
+									
+									<p class="h8 tmar_20"><strong>주석 : </strong>* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</p>
+									
+									<!--  
+									<p class="h8 tmar_20" style="float:left;"><strong>주석 : </strong></p>
+									<div class="left" style="float:left;">
+										<ul style="align:left;margin-bottom:20px;float:left;">
+											<label for="result_cntn11">* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</label>																  
+										</ul>
+									</div>
+									-->									
+									
+							
+         		</div>
+                <!----------- 그래프 끝 ------------->
+                <!----------- 통계표 시작 ------------->
+                
+                
+                    <br><br>		                
+	                <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 통계표</h3>
+	                <h5 class="tmar_60">- 지역별 인구 및 인구밀도</h5>
+						
+					<div>
+						
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	var array_tr_innerHTML_tmp = new Array(); //원상태로 설정하기 위해 배열 상위
+
+	function ppppp(sttsCd, val, flg, header_id) {
+		
+	 
+		fn_oriChk(sttsCd);
+	 
+		// flg = 1 --직접제어 2 -- 자동제어
+		
+		//표두 설정
+		//펼침 선택 시 동일선에 있는 부모의 colspan을 증가 시키기 위함
+		if ( header_id != "" ) {
+			console.log(header_id);
+			var flgNum = 1;
+			if ( document.getElementById("m_"+val).alt == "p_close" ) flgNum = -1;
+			var t_colspan = $('[data-name='+header_id+']').prop('colspan');
+			$('[data-name='+header_id+']').prop('colspan', ((t_colspan==0)?1:t_colspan)+flgNum);
+			console.log($('[data-name='+header_id.replace('_s','')+']'), $('[data-name='+header_id.replace('_s','')+']').attr('data-index'));
+			var t_index = $('[data-name='+header_id.replace('_s','')+']').attr('data-index').split(':');
+			var t_id = t_index[0];
+			$('[data-index="'+t_id+'"]').prop('colspan', (($('[data-index="'+t_id+'"]').prop('colspan')==0)?1:$('[data-index="'+t_id+'"]').prop('colspan'))+flgNum);
+			for (var i = 1; typeof t_index[i] != 'undefined'; i++) {
+				t_id += ":" + t_index[i];
+				$('[data-index="'+t_id+'"]').prop('colspan', (($('[data-index="'+t_id+'"]').prop('colspan')==0)?1:$('[data-index="'+t_id+'"]').prop('colspan'))+flgNum);
+			}
+		} //-- 표두 설정 끝
+		
+		var t_table = document.getElementById("t_Table_"+sttsCd);
+		
+		for ( var i=0 ; i < t_table.rows.length ; i++ ) {
+			
+			var objRow = t_table.rows[i];
+			for ( var j=0 ; j < t_table.rows[i].cells.length ; j++ ) {				
+
+				if ( $(t_table.rows[i].cells[j]).attr('data-id') == val ) {
+		
+					if ( ( document.getElementById("m_"+val).alt == "p_open" && flg == 1 ) ||  ( document.getElementById("m_"+val).alt == "p_close" && flg == 2 ) ) {
+						
+						if ( $(t_table.rows[i].cells[j]).attr('data-id') == val ) {							
+							
+							cell = objRow.insertCell(j+1);								
+							$(cell).attr('data-id','new');
+							cell.style.width = "80px";
+							cell.style.textAlign = "left";
+							
+							var data_b = t_table.rows[i].cells[j].innerHTML.replace(/\,/g,"");
+							//.replace("-", "")
+							var minus_a = "0";
+							
+							if ( j - 2 > -1 ) {
+								
+								if ( $(t_table.rows[i].cells[j-1]).attr('data-id').indexOf("td_"+sttsCd) > -1 ) {
+									minus_a = t_table.rows[i].cells[j-1].innerHTML.replace(/\,/g,"");
+									//.replace("-", "")
+								} else if ( $(t_table.rows[i].cells[j-2]).attr('data-id').indexOf("td_"+sttsCd) > -1 ) {
+									minus_a = t_table.rows[i].cells[j-2].innerHTML.replace(/\,/g,"");
+									//.replace("-", "")
+								} else {
+									minus_a = "0";
+								}								
+								
+							} else {
+								minus_a = data_b;
+							}
+							
+							if ( !isNumber(data_b) ) data_b = "0";
+							if ( !isNumber(minus_a) ) minus_a = "0";
+                            if ( Number(minus_a) == 0 ) minus_a = "0";
+							
+							var result_dt = "0";
+							if ( minus_a != "0" ) {
+								//result_dt = ( 100.0 / Number(minus_a) ) * ( Number(data_b) - Number(minus_a) );
+								//2021 11 24 곽밝음 . 강혜인 주무관 요청 -> 증감비교식 변경 요청.
+								result_dt = Math.abs(Number(minus_a));
+								result_dt = ( ( Number(data_b) - Number(minus_a) ) / result_dt ) * 100.0;
+							}
+							
+							if ( result_dt == "0" ) {
+								result_dt = "<font color='green'><strong>⇔</strong></font>&#40;" + Math.round(result_dt) + "&#37;&#41;";
+							} else if ( Number(data_b) - Number(minus_a)  > 0 ){								
+								result_dt = "<font color='red'>▲</font>&#40;" + result_dt.toFixed(1) + "&#37;&#41;";
+							} else {
+	                            result_dt = "<font color='blue'>▼</font>&#40;" + result_dt.toFixed(1) + "&#37;&#41;";						
+							}
+							
+							cell.innerHTML = "<div style=overflow:hidden;white-space:nowrap; >" + result_dt + "</div>";
+						}
+						
+					} else {
+
+						if ( $(t_table.rows[i].cells[j+1]).attr('data-id') == "new" && flg == 1 ) objRow.deleteCell(j+1);
+					}
+				}				
+			}			
+		}
+		
+		if ( flg == 1 ) {
+			if ( document.getElementById("m_"+val).alt == "p_open" ) {
+				document.getElementById("m_"+val).alt = "p_close";
+			} else {
+				document.getElementById("m_"+val).alt = "p_open";
+			}
+		}
+	}	
+	
+	function uuuuu(sttsCd, val, flg) {		
+
+		var data = [0,0,0];
+		
+		var tmp_tr_cnt = document.getElementById("t_Table_"+sttsCd).rows.length - $("[data-id=head_m_"+sttsCd+"")[0].rowSpan;
+
+		var arr_tableData 			= new Array();
+		var arr_rankData 			= new Array();
+		var array_tr_innerHTML	= new Array();
+
+		var tr_name = "";
+		var tr_obj = null;
+		var rank_num = 0;
+		
+		fn_oriChk(sttsCd);
+		
+		if ( flg != 77 ) //sort, 77=초기값, 랭킹을 구하고 해당 tr복사후 랭킹대로 다시 tr에 붙여넣는방식
+		{
+
+			var colSpan = $("[data-id=head_m_"+sttsCd+"")[0].colSpan;
+			var tmp_th, colSpan_th;
+
+			for ( var i=0; i < tmp_tr_cnt ; i++ )
+			{
+				tr_name = "tr_" + sttsCd + "_" + (i + 1);
+				tr_obj = $("[data-id="+tr_name+"]")[0];
+					
+				var c_cnt = 0;
+				for ( var j=0 ; j <  tr_obj.cells.length ; j++ ) {
+					if ( $(tr_obj.cells[j]).attr('data-id').indexOf("td_"+sttsCd) == -1 && $(tr_obj.cells[j]).attr('data-id').indexOf("new") == -1) {
+						c_cnt += tr_obj.cells[j].colSpan;
+					}
+				}				
+
+				//colspan이 2이상일 경우를 처리 하기위해 colspan의 유무를 숫자로 구분후 처리
+				var t = 0;
+				var tt = new Array();
+				for ( var j=0 ; j <  tr_obj.cells.length ; j++ ) {					
+					
+					if ( $(tr_obj.cells[j]).attr('data-id').indexOf("td_"+sttsCd) == -1 && $(tr_obj.cells[j]).attr('data-id').indexOf("new") == -1) {								
+												
+						colSpan_th = tr_obj.cells[j].colSpan;
+						for ( var k=0 ; k < colSpan_th ; k++ ) { tt.push(t); }
+						t++;
+					}
+				}
+				
+				for ( var j=0 ; j < tt.length ; j++ ) {
+					var num = tt[j];
+					// data 값 역순으로
+					data[( c_cnt - 1 ) - j] = tr_obj.cells[num].innerHTML;
+				}			
+				
+				tmp_th = '';
+				var colspan_cnt = ''; 
+				for ( var j=0 ; j < colSpan ; j++ ) {
+					colspan_cnt = setColspan_cnt(data);
+					if ( colSpan == 1 ) colspan_cnt = 1;
+					tmp_th += '<th class="tl" data-id="tmp_c1_0" nowrap="nowrap" rowspan="1" colspan="' + colspan_cnt + '">th_Name_' + j + '</th>';
+					
+					if ( colspan_cnt > 1 ) for (var k=0 ; k < colspan_cnt ; k++ ) { j++; }
+				}
+				tmp_th += '\n';
+				
+				for ( var j=0; j < colSpan ; j++ ) {
+					// data 값 역순으로
+					tmp_th = tmp_th.replace("th_Name_"+j, data[ ( colSpan -1 ) - j ] );
+				}				
+				
+				var indexOf_th, indexOf_td, tmp_th_start, tmp_td;
+				
+				indexOf_th		= tr_obj.innerHTML.toLowerCase().indexOf("<th");
+				indexOf_td		= tr_obj.innerHTML.toLowerCase().indexOf("<td");				
+				tmp_th_start	= tr_obj.innerHTML.substr(0, indexOf_th);
+				tmp_td			= tr_obj.innerHTML.substr(indexOf_td);
+							
+				$('[data-id='+tr_name+']').html(tmp_th_start + tmp_th + tmp_td);
+				
+				for ( var k=0 ; k < tr_obj.cells.length ; k++ )
+				{
+					if ( $(tr_obj.cells[k]).attr('data-id') == val )
+					{
+						arr_tableData.push(sttsCd+"@"+tr_obj.cells[k].innerHTML);
+					}
+				}
+
+				array_tr_innerHTML.push(tr_obj.innerHTML);
+			}			
+			/* 표측 ---------- end*/
+			for ( var i=0; i < arr_tableData.length ; i++ )
+			{
+				tr_name = "tr_" + sttsCd + "_" + (i + 1);
+				tr_obj = $("[data-id="+tr_name+"]")[0];
+				
+				rank_num = 0;
+					
+				for ( var j=0 ; j < arr_tableData.length ; j++ )
+				{
+
+					if ( arr_tableData[i].indexOf(sttsCd) > -1 && arr_tableData[j].indexOf(sttsCd) > -1 ) {
+						var tmp_numA = arr_tableData[i].replace(/\,/g,"").replace(sttsCd+"@", "");
+						var tmp_numB = arr_tableData[j].replace(/\,/g,"").replace(sttsCd+"@", "");
+						
+						if ( !isNumber(tmp_numA) )  tmp_numA = 0;
+						if ( !isNumber(tmp_numB) )  tmp_numB = 0;
+						
+						if ( Number(tmp_numA) < Number(tmp_numB) && i != j && flg == 55 ) {
+							rank_num++;
+						} else if ( Number(tmp_numA) > Number(tmp_numB) && i != j && flg == 66 ) {
+							rank_num++;
+						}
+					}
+				}
+
+				for ( var k=0; k < arr_rankData.length ; k++ ) //rank_num이 중복을 막기위해
+				{
+					if ( arr_rankData[k] == sttsCd+"@"+rank_num )
+					{
+						rank_num++;
+					}
+				}
+
+				if ( tr_obj.style.display == "none" ) {
+					arr_rankData.push(sttsCd+"@"+rank_num+"none");
+				} else {
+					arr_rankData.push(sttsCd+"@"+rank_num);
+				}				
+			}
+			
+			//랭킹별로 넣음
+			for ( var i=0; i < tmp_tr_cnt ; i++ )
+			{
+				tr_name = "tr_" + sttsCd + "_" + (i + 1);
+				for ( var j=0; j < tmp_tr_cnt ; j++ )
+				{
+					if ( sttsCd+"@"+i == arr_rankData[j] )
+					{						
+						$('[data-id='+tr_name+']').html(array_tr_innerHTML[j]);
+					}
+				}
+			}
+		} //if end
+
+				
+		//지표퍼센트를 초기화후 다시 설정
+		var array_td = "", tmp_td_a="", tmp_td_b="";
+		var m_rowSpan_cnt = $("[data-id=head_m_"+sttsCd+"]")[0].rowSpan;		
+		var objData = document.getElementById("t_Table_"+sttsCd).rows[m_rowSpan_cnt];		
+		
+		for ( var i=0 ; i < document.getElementById("t_Table_"+sttsCd).rows.length ; i++ ) {
+			
+			if ( document.getElementById("t_Table_"+sttsCd).rows[i] != undefined ) {
+				for ( var j=0 ; j < document.getElementById("t_Table_"+sttsCd).rows[i].cells.length ; j++ ) {
+					if ( $(document.getElementById("t_Table_"+sttsCd).rows[i].cells[j]).attr('data-id') == "new" ) {
+						document.getElementById("t_Table_"+sttsCd).rows[i].deleteCell(j);	
+					}				
+				}
+			}
+		}
+		
+		
+		for ( var i=0 ; i < objData.cells.length ; i++ ) {
+			
+			tmp_td_a = "td_"+sttsCd+"_"+i; 
+			if ( document.getElementById("m_"+tmp_td_a) != null ) {
+				if ( document.getElementById("m_"+tmp_td_a).alt == "p_close" ) {
+					if ( tmp_td_b != "" ) tmp_td_b +="@"; 
+					tmp_td_b += tmp_td_a;
+				}				
+			}
+		}
+		
+		array_td = tmp_td_b.split("@");
+		
+		if ( array_td != "" ) {
+			for ( var i=0 ; i < array_td.length ; i++ ) {
+				ppppp(sttsCd, array_td[i], 2, "");
+			}
+		}	
+	}
+	
+	function reSet_side(sttsCd){
+		
+		var tmp_tr_cnt = document.getElementById("t_Table_"+sttsCd).rows.length - $("[data-id=head_m_"+sttsCd+"]").rowSpan;
+		var colSpan = $("[data-id=head_m_"+sttsCd+"]")[0].colSpan;
+		var tmp_th, colSpan_th;
+		var data = [0,0,0];
+
+		for ( var i=0; i < tmp_tr_cnt ; i++ )
+		{
+			tr_name = "tr_" + sttsCd + "_" + (i + 1);
+			tr_obj = $("[data-id="+tr_name+"]")[0];
+				
+			var c_cnt = 0;
+			
+			for ( var j=0 ; j <  tr_obj.cells.length ; j++ ) {
+				if ( $(tr_obj.cells[j]).attr('data-id').indexOf("td_"+sttsCd) == -1 && $(tr_obj.cells[j]).attr('data-id').indexOf("new") == -1) {
+					c_cnt += tr_obj.cells[j].colSpan;
+				}
+			}				
+
+			//colspan이 2이상일 경우를 처리 하기위해 colspan의 유무를 숫자로 구분후 처리
+			var t = 0;
+			var tt = new Array();
+			for ( var j=0 ; j <  tr_obj.cells.length ; j++ ) {					
+				
+				if ( $(tr_obj.cells[j]).attr('data-id').indexOf("td_"+sttsCd) == -1 && $(tr_obj.cells[j]).attr('data-id').indexOf("new") == -1) {								
+											
+					colSpan_th = tr_obj.cells[j].colSpan;
+					for ( var k=0 ; k < colSpan_th ; k++ ) { tt.push(t); }
+					t++;
+				}
+			}
+			
+			for ( var j=0 ; j < tt.length ; j++ ) {
+				var num = tt[j];
+				// data 값 역순으로
+				data[( c_cnt - 1 ) - j] = tr_obj.cells[num].innerHTML;
+			}			
+			
+			tmp_th = '';
+			var colspan_cnt = ''; 
+			for ( var j=0 ; j < colSpan ; j++ ) {
+				colspan_cnt = setColspan_cnt(data);
+				if ( colSpan == 1 ) colspan_cnt = 1;
+				tmp_th += '<th class="tl" data-id="tmp_c1_0" nowrap="nowrap" rowspan="1" colspan="' + colspan_cnt + '">th_Name_' + j + '</th>';
+				
+				if ( colspan_cnt > 1 ) for (var k=0 ; k < colspan_cnt ; k++ ) { j++; }
+			}
+			tmp_th += '\n';
+			
+			for ( var j=0; j < colSpan ; j++ ) {
+				// data 값 역순으로
+				tmp_th = tmp_th.replace("th_Name_"+j, data[ ( colSpan -1 ) - j ] );
+			}				
+			
+			var indexOf_th, indexOf_td, tmp_th_start, tmp_td;
+			
+			indexOf_th		= tr_obj.innerHTML.toLowerCase().indexOf("<th");
+			indexOf_td		= tr_obj.innerHTML.toLowerCase().indexOf("<td");				
+			tmp_th_start	= tr_obj.innerHTML.substr(0, indexOf_th);
+			tmp_td			= tr_obj.innerHTML.substr(indexOf_td);
+						
+			$('[data-id='+tr_name+']').html(tmp_th_start + tmp_th + tmp_td);			
+		}	
+	}
+	
+	function setColspan_cnt(data){
+		
+		var cnt=1;
+		for ( var i=0 ; i < data.length ; i++ ) {
+			if ( data[(data.length-1)-i] == data[(data.length-1)-(i+1)] && (i+1) != data.length) {
+				cnt++;		
+			}
+		}
+		
+		return cnt;
+	}
+	function isNumber(s) {
+		s += '';
+		s = s.replace(/^\s+|\s+$/g,'');
+		
+		if ( s == '' || isNaN(s) ) return false;
+		return true;
+	}	
+	
+	var heatFlg = "";	
+	function fn_heatMap(sttsCd) {
+		
+		fn_oriChk(sttsCd);		
+		
+		if ( heatFlg.indexOf(sttsCd) == -1 ) {
+			heatFlg += sttsCd+"@"+"f";
+		}
+		
+		$('#heatMap_'+sttsCd).each(function(){
+
+			if( heatFlg.indexOf(sttsCd+"@"+"f") > -1 ) {
+				Array.max = function( array ){
+					
+					
+					array = jQuery.grep(array, function(a) {
+						return String(a) !== "NaN";
+					});					
+					
+			        return Math.max.apply( Math, array );
+			    };
+
+			    // get all values
+			    var counts= $('#t_Table_'+sttsCd+' tbody td').map(function() {
+			    	if ( $('#t_Table_'+sttsCd+' tbody td').attr("data-id") != "new" ) {
+				    	if( $(this).text() == "-" ) { 
+				    		return parseInt($(this).text().replace(/-/gi,"0"));
+				    	} else {
+				    		return parseInt($(this).text().replace(/,/gi,""));
+				    	}	
+			    	}
+			    }).get();				
+			    
+				// return max value
+				var max = Array.max(counts);
+				
+				xr = 255;
+			    xg = 255;
+			    xb = 255;
+			    
+			    //xr = 0;
+			    //xg = 0;
+			    //xb = 0;
+			   
+			   
+			    ////yr = 243;
+			    ////yg = 32;
+			    ////yb = 117;
+
+				yr = 49;
+			    yg = 141;
+			    yb = 231;
+			    
+			   // yr = 0;
+			    //yg = 0;
+			    //yb = 0;
+
+			    n = 100;
+				// add classes to cells based on nearest 10 value
+				$('#t_Table_'+sttsCd+' tbody td').each(function(){
+					
+					if ( $('#t_Table_'+sttsCd+' tbody td').attr("data-id") != "new" ) {
+						var val;
+						if( $(this).text() == "-" ) { 
+				    		val = parseInt($(this).text().replace(/-/gi,"0"));
+				    	} else {
+				    		val = parseInt($(this).text().replace(/,/gi,""));
+				    	}
+						var pos = parseInt((Math.round((val/max)*100)).toFixed(0));
+						red = parseInt((xr + (( pos * (yr - xr)) / (n-1))).toFixed(0));		
+						green = parseInt((xg + (( pos * (yg - xg)) / (n-1))).toFixed(0));
+						blue = parseInt((xb + (( pos * (yb - xb)) / (n-1))).toFixed(0));
+						clr = 'rgb('+red+','+green+','+blue+')';
+						$(this).css({backgroundColor:clr});	
+					}
+				});				
+				
+				heatFlg = heatFlg.replace(sttsCd+"@"+"f", sttsCd+"@"+"t");
+			} else {
+				$('#t_Table_'+sttsCd+' tbody td').each(function(){
+					
+					if ( $('#t_Table_'+sttsCd+' tbody td').attr("data-id") != "new" ) {
+						clr = 'rgb(255,255,255)';
+						$(this).css({backgroundColor:clr});						
+					}
+
+				});
+				
+				heatFlg = heatFlg.replace(sttsCd+"@"+"t", sttsCd+"@"+"f");				
+			}
+		
+		});		
+	}
+
+//     //시계열검색
+//     function idxSearchPop(idx_cd,clas_div,idx_sys_cd, stts_cd){
+//     	var Win;
+// 		var url = "<c:url value='/potal/stts/idxMain/selectPoSttsIdxSearch.do?idx_cd="+idx_cd+"&clas_div="+clas_div+"&idx_sys_cd="+idx_sys_cd+"&idx_clas_cd=1'/>";       		
+//    		if(stts_cd) url = "<c:url value='/potal/stts/idxMain/selectPoSttsIdxSearch.do?idx_cd="+idx_cd+"&stts_cd="+stts_cd+"&clas_div="+clas_div+"&idx_sys_cd="+idx_sys_cd+"&idx_clas_cd=1'/>"; 
+   			
+//    		Win= window.open(url,"시계열조회",'width=1040,height=870,scrollbars=yes,resizable=yes,status=no,center:yes');
+// 		Win.focus();
+//     }
+
+
+function idxSch(sttsCd) {
+	
+	fn_oriChk(sttsCd);
+	
+	var searchWrd = document.getElementById("searchWrd"+sttsCd).value;	
+	var t_table = document.getElementById("t_Table_"+sttsCd);
+	var head_rowCnt = $("[data-id=head_m_"+sttsCd+"]")[0].rowSpan;
+	var head_colCnt = $("[data-id=head_m_"+sttsCd+"]")[0].colSpan;	
+	
+	
+	
+	reSet_side(sttsCd);
+	
+	for ( var i=head_rowCnt ; i < t_table.rows.length ; i++ ) {
+		
+		var objRow = t_table.rows[i];
+		var data_t = "";
+		
+		for ( var j=0 ; j < head_colCnt ; j++ ) {
+			data_t += "_"+t_table.rows[i].cells[j].innerHTML;
+		}
+		
+		objRow.style.display = "";
+		if ( data_t.indexOf(searchWrd) == -1 && searchWrd != "" ) objRow.style.display = "none";
+	}	
+	
+}
+
+function fn_oriChk(sttsCd) {
+	
+	var chkFlg = false;
+	for ( var i=0; i < array_tr_innerHTML_tmp.length ; i++ )
+	{
+		if ( array_tr_innerHTML_tmp[i].indexOf(sttsCd) > -1 ) {				
+			chkFlg = true;
+		}
+	}		
+
+	if ( !chkFlg ) //최초인 상태를 복사
+	{						
+		var tmp_table = document.getElementById("t_Table_"+sttsCd);
+		for ( var i=0; i < tmp_table.rows.length ; i++ )
+		{
+		 	array_tr_innerHTML_tmp.push(tmp_table.rows[i].innerHTML);
+		}
+	}	
+}
+
+
+function idxReset(sttsCd) {
+	
+	heatFlg = heatFlg.replace(sttsCd+"@"+"t", sttsCd+"@"+"f");
+	
+	document.getElementById("searchWrd"+sttsCd).value = "";
+	idxSch(sttsCd);
+	
+	var tmp_table = document.getElementById("t_Table_"+sttsCd);
+	var k=0;
+	
+	for ( var i=0; i < array_tr_innerHTML_tmp.length ; i++ )
+	{
+		if ( array_tr_innerHTML_tmp[i].indexOf(sttsCd) > -1 ) {
+			$(tmp_table.rows[k]).html(array_tr_innerHTML_tmp[i]);
+			k++;
+		}
+	}
+} 
+/* 20210210 곽밝음 증감비교 버튼 */
+function btnP(sttsCd) {
+	$("a[href^='javascript:ppppp("+sttsCd+"']").each(function(index){ if(index!=0) $(this).get(0).click(); });
+}
+</script> 
+
+<script type="text/javascript">
+	function downloadStbl_100701(a,b,c,d,e) {
+		document.dn_100701.stts_cd.value = a;
+		document.dn_100701.HeadStts_cd.value = b;
+		document.dn_100701.idx_cd.value = c;
+		document.dn_100701.SttsKornm.value = d;
+		document.dn_100701.downType.value = e;
+		document.dn_100701.submit();
+	}
+	
+	/* 20210402 통계표 엑셀다운로드 변경 */
+	function excelDown_100701()
+	{   
+	    var stts_cd = "100701";
+	    var idx_cd = "1007";
+	    var $table = $('#t_Table_'+stts_cd).clone();
+	    $table.find('[data-id^=trSort]').remove();
+	    $table[0].rows[0].cells[0].rowSpan = $table[0].rows[0].cells[0].rowSpan-1;
+	    var t_rows = $table[0].rows;
+	    var data_value = '';
+	    for(var i=0; i<t_rows.length; i++) {
+	        var t_cells = t_rows[i].cells;
+	        for(var j=0; j<t_cells.length; j++) {
+	            data_value += t_cells[j].colSpan + '@span';
+	            data_value += t_cells[j].rowSpan + '@span';
+	            if($(t_cells[j]).attr('data-id').indexOf('td_')>=0) data_value += t_cells[j].innerText.trim() + '@td@cell';
+	            if($(t_cells[j]).attr('data-id').indexOf('td_')<0) data_value += t_cells[j].innerText.trim() + '@th@cell';
+	        }
+	        data_value += '@row';
+	    }
+	    var $form = $('<form name="exceldownform_'+stts_cd+'" method="post" action="/exceldown.do">');
+	    var $datavalue = $('<input type="hidden" name="datavalue"/>');
+	    $datavalue.val(data_value);
+	    $form.append($datavalue);
+	    var $idxcd = $('<input type="hidden" name="idxcd"/>');
+	    $idxcd.val(idx_cd);
+	    $form.append($idxcd);
+        var $sttscd = $('<input type="hidden" name="sttscd"/>');
+        $sttscd.val(stts_cd);
+        $form.append($sttscd);
+        $('body').append($form);
+        $form.submit();
+	}
+</script>
+
+<div style="overflow-x:auto;overflow-y:hidden;width:100%;">
+[단위 : 천명, 명/㎢]
+<table id="t_Table_100701" class="table_style_2" style="white-space:nowrap;">
+	<caption>지역별 인구 및 인구밀도 통계표 입니다. 단위는 천명, 명/㎢ 입니다.</caption>
+		<thead>
+		<!-- tr class="bg"> -->
+		<tr data-id='trHeader100701_1' class='bg'>
+		<th data-id="head_m_100701" scope="col" colspan="1" rowspan="2">&nbsp;</th> <!-- 소트_sunK-->
+		<th data-id='t100701_h_0' data-index='0' data-name='td_100701_cc_0' class="tc" data-headers='td_100701_cc_0' colspan='2' rowspan='1'>2016</th>
+<th data-id='t100701_h_1' data-index='1' data-name='td_100701_cc_1' class="tc" data-headers='td_100701_cc_1' colspan='2' rowspan='1'>2017</th>
+<th data-id='t100701_h_2' data-index='2' data-name='td_100701_cc_2' class="tc" data-headers='td_100701_cc_2' colspan='2' rowspan='1'>2018</th>
+<th data-id='t100701_h_3' data-index='3' data-name='td_100701_cc_3' class="tc" data-headers='td_100701_cc_3' colspan='2' rowspan='1'>2019</th>
+<th data-id='t100701_h_4' data-index='4' data-name='td_100701_cc_4' class="tc" data-headers='td_100701_cc_4' colspan='2' rowspan='1'>2020</th>
+</tr><tr data-id='trHeader100701_2' class='bg'><th data-id='t100701_h_00' data-index='0:0' data-name='td_100701_cc_00' class="tc" data-headers='td_100701_cc_00'   rowspan='1'>인구</th>
+<th data-id='t100701_h_01' data-index='0:1' data-name='td_100701_cc_01' class="tc" data-headers='td_100701_cc_01'   rowspan='1'>인구밀도</th>
+<th data-id='t100701_h_10' data-index='1:0' data-name='td_100701_cc_10' class="tc" data-headers='td_100701_cc_10'   rowspan='1'>인구</th>
+<th data-id='t100701_h_11' data-index='1:1' data-name='td_100701_cc_11' class="tc" data-headers='td_100701_cc_11'   rowspan='1'>인구밀도</th>
+<th data-id='t100701_h_20' data-index='2:0' data-name='td_100701_cc_20' class="tc" data-headers='td_100701_cc_20'   rowspan='1'>인구</th>
+<th data-id='t100701_h_21' data-index='2:1' data-name='td_100701_cc_21' class="tc" data-headers='td_100701_cc_21'   rowspan='1'>인구밀도</th>
+<th data-id='t100701_h_30' data-index='3:0' data-name='td_100701_cc_30' class="tc" data-headers='td_100701_cc_30'   rowspan='1'>인구</th>
+<th data-id='t100701_h_31' data-index='3:1' data-name='td_100701_cc_31' class="tc" data-headers='td_100701_cc_31'   rowspan='1'>인구밀도</th>
+<th data-id='t100701_h_40' data-index='4:0' data-name='td_100701_cc_40' class="tc" data-headers='td_100701_cc_40'   rowspan='1'>인구</th>
+<th data-id='t100701_h_41' data-index='4:1' data-name='td_100701_cc_41' class="tc" data-headers='td_100701_cc_41'   rowspan='1'>인구밀도</th>
+</tr>
+		</thead>
+		<tbody> 
+<tr data-id='tr_100701_1'>
+
+			<th class="tl" data-id='t100701_c1_0' colspan='1' rowspan='1'>계</th>
+<td data-id='td_100701_1'>51,218</td>
+<td data-id='td_100701_2'>510</td>
+<td data-id='td_100701_3'>51,362</td>
+<td data-id='td_100701_4'>512</td>
+<td data-id='td_100701_5'>51,607</td>
+<td data-id='td_100701_6'>514</td>
+<td data-id='td_100701_7'>51,709</td>
+<td data-id='td_100701_8'>515</td>
+<td data-id='td_100701_9'>51,781</td>
+<td data-id='td_100701_10'>516</td>
+
+			</tr>
+<tr data-id='tr_100701_2'>
+
+			<th class="tl" data-id='t100701_c1_1' colspan='1' rowspan='1'>서울</th>
+<td data-id='td_100701_1'>9,843</td>
+<td data-id='td_100701_2'>16,263</td>
+<td data-id='td_100701_3'>9,766</td>
+<td data-id='td_100701_4'>16,136</td>
+<td data-id='td_100701_5'>9,705</td>
+<td data-id='td_100701_6'>16,034</td>
+<td data-id='td_100701_7'>9,662</td>
+<td data-id='td_100701_8'>15,964</td>
+<td data-id='td_100701_9'>9,602</td>
+<td data-id='td_100701_10'>15,865</td>
+
+			</tr>
+<tr data-id='tr_100701_3'>
+
+			<th class="tl" data-id='t100701_c1_2' colspan='1' rowspan='1'>부산</th>
+<td data-id='td_100701_1'>3,447</td>
+<td data-id='td_100701_2'>4,477</td>
+<td data-id='td_100701_3'>3,424</td>
+<td data-id='td_100701_4'>4,447</td>
+<td data-id='td_100701_5'>3,400</td>
+<td data-id='td_100701_6'>4,416</td>
+<td data-id='td_100701_7'>3,373</td>
+<td data-id='td_100701_8'>4,380</td>
+<td data-id='td_100701_9'>3,344</td>
+<td data-id='td_100701_10'>4,342</td>
+
+			</tr>
+<tr data-id='tr_100701_4'>
+
+			<th class="tl" data-id='t100701_c1_3' colspan='1' rowspan='1'>대구</th>
+<td data-id='td_100701_1'>2,461</td>
+<td data-id='td_100701_2'>2,786</td>
+<td data-id='td_100701_3'>2,458</td>
+<td data-id='td_100701_4'>2,782</td>
+<td data-id='td_100701_5'>2,450</td>
+<td data-id='td_100701_6'>2,773</td>
+<td data-id='td_100701_7'>2,432</td>
+<td data-id='td_100701_8'>2,753</td>
+<td data-id='td_100701_9'>2,419</td>
+<td data-id='td_100701_10'>2,738</td>
+
+			</tr>
+<tr data-id='tr_100701_5'>
+
+			<th class="tl" data-id='t100701_c1_4' colspan='1' rowspan='1'>인천</th>
+<td data-id='td_100701_1'>2,907</td>
+<td data-id='td_100701_2'>2,736</td>
+<td data-id='td_100701_3'>2,924</td>
+<td data-id='td_100701_4'>2,750</td>
+<td data-id='td_100701_5'>2,939</td>
+<td data-id='td_100701_6'>2,764</td>
+<td data-id='td_100701_7'>2,944</td>
+<td data-id='td_100701_8'>2,769</td>
+<td data-id='td_100701_9'>2,951</td>
+<td data-id='td_100701_10'>2,770</td>
+
+			</tr>
+<tr data-id='tr_100701_6'>
+
+			<th class="tl" data-id='t100701_c1_5' colspan='1' rowspan='1'>광주</th>
+<td data-id='td_100701_1'>1,502</td>
+<td data-id='td_100701_2'>2,997</td>
+<td data-id='td_100701_3'>1,495</td>
+<td data-id='td_100701_4'>2,984</td>
+<td data-id='td_100701_5'>1,493</td>
+<td data-id='td_100701_6'>2,980</td>
+<td data-id='td_100701_7'>1,494</td>
+<td data-id='td_100701_8'>2,980</td>
+<td data-id='td_100701_9'>1,488</td>
+<td data-id='td_100701_10'>2,969</td>
+
+			</tr>
+<tr data-id='tr_100701_7'>
+
+			<th class="tl" data-id='t100701_c1_6' colspan='1' rowspan='1'>대전</th>
+<td data-id='td_100701_1'>1,536</td>
+<td data-id='td_100701_2'>2,848</td>
+<td data-id='td_100701_3'>1,528</td>
+<td data-id='td_100701_4'>2,832</td>
+<td data-id='td_100701_5'>1,518</td>
+<td data-id='td_100701_6'>2,813</td>
+<td data-id='td_100701_7'>1,509</td>
+<td data-id='td_100701_8'>2,796</td>
+<td data-id='td_100701_9'>1,500</td>
+<td data-id='td_100701_10'>2,780</td>
+
+			</tr>
+<tr data-id='tr_100701_8'>
+
+			<th class="tl" data-id='t100701_c1_7' colspan='1' rowspan='1'>울산</th>
+<td data-id='td_100701_1'>1,166</td>
+<td data-id='td_100701_2'>1,099</td>
+<td data-id='td_100701_3'>1,159</td>
+<td data-id='td_100701_4'>1,092</td>
+<td data-id='td_100701_5'>1,154</td>
+<td data-id='td_100701_6'>1,088</td>
+<td data-id='td_100701_7'>1,147</td>
+<td data-id='td_100701_8'>1,080</td>
+<td data-id='td_100701_9'>1,140</td>
+<td data-id='td_100701_10'>1,073</td>
+
+			</tr>
+<tr data-id='tr_100701_9'>
+
+			<th class="tl" data-id='t100701_c1_8' colspan='1' rowspan='1'>세종</th>
+<td data-id='td_100701_1'>234</td>
+<td data-id='td_100701_2'>504</td>
+<td data-id='td_100701_3'>266</td>
+<td data-id='td_100701_4'>571</td>
+<td data-id='td_100701_5'>304</td>
+<td data-id='td_100701_6'>653</td>
+<td data-id='td_100701_7'>331</td>
+<td data-id='td_100701_8'>712</td>
+<td data-id='td_100701_9'>349</td>
+<td data-id='td_100701_10'>750</td>
+
+			</tr>
+<tr data-id='tr_100701_10'>
+
+			<th class="tl" data-id='t100701_c1_9' colspan='1' rowspan='1'>경기</th>
+<td data-id='td_100701_1'>12,600</td>
+<td data-id='td_100701_2'>1,237</td>
+<td data-id='td_100701_3'>12,786</td>
+<td data-id='td_100701_4'>1,255</td>
+<td data-id='td_100701_5'>13,031</td>
+<td data-id='td_100701_6'>1,279</td>
+<td data-id='td_100701_7'>13,238</td>
+<td data-id='td_100701_8'>1,299</td>
+<td data-id='td_100701_9'>13,405</td>
+<td data-id='td_100701_10'>1,315</td>
+
+			</tr>
+<tr data-id='tr_100701_11'>
+
+			<th class="tl" data-id='t100701_c1_10' colspan='1' rowspan='1'>강원</th>
+<td data-id='td_100701_1'>1,521</td>
+<td data-id='td_100701_2'>90</td>
+<td data-id='td_100701_3'>1,521</td>
+<td data-id='td_100701_4'>90</td>
+<td data-id='td_100701_5'>1,521</td>
+<td data-id='td_100701_6'>90</td>
+<td data-id='td_100701_7'>1,517</td>
+<td data-id='td_100701_8'>90</td>
+<td data-id='td_100701_9'>1,515</td>
+<td data-id='td_100701_10'>90</td>
+
+			</tr>
+<tr data-id='tr_100701_12'>
+
+			<th class="tl" data-id='t100701_c1_11' colspan='1' rowspan='1'>충북</th>
+<td data-id='td_100701_1'>1,601</td>
+<td data-id='td_100701_2'>216</td>
+<td data-id='td_100701_3'>1,609</td>
+<td data-id='td_100701_4'>217</td>
+<td data-id='td_100701_5'>1,619</td>
+<td data-id='td_100701_6'>219</td>
+<td data-id='td_100701_7'>1,626</td>
+<td data-id='td_100701_8'>219</td>
+<td data-id='td_100701_9'>1,632</td>
+<td data-id='td_100701_10'>220</td>
+
+			</tr>
+<tr data-id='tr_100701_13'>
+
+			<th class="tl" data-id='t100701_c1_12' colspan='1' rowspan='1'>충남</th>
+<td data-id='td_100701_1'>2,126</td>
+<td data-id='td_100701_2'>258</td>
+<td data-id='td_100701_3'>2,153</td>
+<td data-id='td_100701_4'>262</td>
+<td data-id='td_100701_5'>2,180</td>
+<td data-id='td_100701_6'>265</td>
+<td data-id='td_100701_7'>2,188</td>
+<td data-id='td_100701_8'>265</td>
+<td data-id='td_100701_9'>2,204</td>
+<td data-id='td_100701_10'>267</td>
+
+			</tr>
+<tr data-id='tr_100701_14'>
+
+			<th class="tl" data-id='t100701_c1_13' colspan='1' rowspan='1'>전북</th>
+<td data-id='td_100701_1'>1,835</td>
+<td data-id='td_100701_2'>227</td>
+<td data-id='td_100701_3'>1,829</td>
+<td data-id='td_100701_4'>227</td>
+<td data-id='td_100701_5'>1,820</td>
+<td data-id='td_100701_6'>226</td>
+<td data-id='td_100701_7'>1,803</td>
+<td data-id='td_100701_8'>223</td>
+<td data-id='td_100701_9'>1,792</td>
+<td data-id='td_100701_10'>222</td>
+
+			</tr>
+<tr data-id='tr_100701_15'>
+
+			<th class="tl" data-id='t100701_c1_14' colspan='1' rowspan='1'>전남</th>
+<td data-id='td_100701_1'>1,798</td>
+<td data-id='td_100701_2'>146</td>
+<td data-id='td_100701_3'>1,795</td>
+<td data-id='td_100701_4'>146</td>
+<td data-id='td_100701_5'>1,790</td>
+<td data-id='td_100701_6'>145</td>
+<td data-id='td_100701_7'>1,773</td>
+<td data-id='td_100701_8'>144</td>
+<td data-id='td_100701_9'>1,764</td>
+<td data-id='td_100701_10'>143</td>
+
+			</tr>
+<tr data-id='tr_100701_16'>
+
+			<th class="tl" data-id='t100701_c1_15' colspan='1' rowspan='1'>경북</th>
+<td data-id='td_100701_1'>2,683</td>
+<td data-id='td_100701_2'>141</td>
+<td data-id='td_100701_3'>2,675</td>
+<td data-id='td_100701_4'>141</td>
+<td data-id='td_100701_5'>2,674</td>
+<td data-id='td_100701_6'>141</td>
+<td data-id='td_100701_7'>2,665</td>
+<td data-id='td_100701_8'>140</td>
+<td data-id='td_100701_9'>2,655</td>
+<td data-id='td_100701_10'>140</td>
+
+			</tr>
+<tr data-id='tr_100701_17'>
+
+			<th class="tl" data-id='t100701_c1_16' colspan='1' rowspan='1'>경남</th>
+<td data-id='td_100701_1'>3,338</td>
+<td data-id='td_100701_2'>317</td>
+<td data-id='td_100701_3'>3,339</td>
+<td data-id='td_100701_4'>317</td>
+<td data-id='td_100701_5'>3,356</td>
+<td data-id='td_100701_6'>318</td>
+<td data-id='td_100701_7'>3,350</td>
+<td data-id='td_100701_8'>318</td>
+<td data-id='td_100701_9'>3,350</td>
+<td data-id='td_100701_10'>318</td>
+
+			</tr>
+<tr data-id='tr_100701_18'>
+
+			<th class="tl" data-id='t100701_c1_17' colspan='1' rowspan='1'>제주</th>
+<td data-id='td_100701_1'>618</td>
+<td data-id='td_100701_2'>334</td>
+<td data-id='td_100701_3'>635</td>
+<td data-id='td_100701_4'>343</td>
+<td data-id='td_100701_5'>653</td>
+<td data-id='td_100701_6'>353</td>
+<td data-id='td_100701_7'>660</td>
+<td data-id='td_100701_8'>356</td>
+<td data-id='td_100701_9'>670</td>
+<td data-id='td_100701_10'>362</td>
+
+			</tr>
+<tr data-id='tr_100701_19'>
+
+			<th class="tl" data-id='t100701_c1_18' colspan='1' rowspan='1'>수도권</th>
+<td data-id='td_100701_1'>25,350</td>
+<td data-id='td_100701_2'>2,139</td>
+<td data-id='td_100701_3'>25,476</td>
+<td data-id='td_100701_4'>2,149</td>
+<td data-id='td_100701_5'>25,675</td>
+<td data-id='td_100701_6'>2,165</td>
+<td data-id='td_100701_7'>25,844</td>
+<td data-id='td_100701_8'>2,179</td>
+<td data-id='td_100701_9'>25,958</td>
+<td data-id='td_100701_10'>2,188</td>
+
+			</tr>
+		
+	</tbody>
+</table>
+</div>
+<br /> 
+					</div>
+						
+
+					
+					
+					            
+                        <div class="h8_index" style="display: inline-block">
+	                        <div style="float: left;margin-right: 3px;"><p class="h8_index"><strong>출처 : </strong>통계청「장래인구추계 시도편 : 2017-2047」, 국토교통부「지적통계」</p></div>
+	                        <!--  
+	                        <div style="float: left;margin-left: 39px;width: 1038px;">
+	                           <p class="src_index">통계청「장래인구추계 시도편 : 2017-2047」, 국토교통부「지적통계」
+	                                
+	                           </p>                                     
+	                       </div>
+	                       -->
+                                 
+                        </div>
+                    
+                    
+	              	
+	              	
+                        <div class="h8_index" style="display: inline-block">
+                            <div style="float: left;margin-right: 3px;"><p class="h8_index"><strong>주석 : </strong>* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</p></div>
+                            <!--  
+                            <div style="float: left;margin-left: 39px;width: 1038px;">
+                                <p class="src_index"><span id="result_cntn100701">* 수도권 : 서울, 인천, 경기<br/>* 통계청『장래인구추계 시도편 : 2017-2047』의 시도별 인구와 국토교통부『지적통계』의 시도별 국토면적을 기초로 작성<br/>* 시도별 장래인구추계는 2019년에 작성된 자료임</span></p>
+                            </div>
+                            -->
+                        </div>
+                    
+	              	 
+					
+				<!----------- 통계표 끝 ------------->
+				<!-- 통계표목록 시작 -->
+				<br><br>
+				<h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 통계표 목록</h3>
+                <ul class="h7_ul_1">
+                
+                    <li data-sttscd="100701" data-freq="Y">지역별 인구 및 인구밀도
+                        (연, 1970 ~ 2020)
+                        
+                        
+                        
+                        
+                        
+                        
+                    </li>
+                
+                </ul>
+                <!-- 통계표목록 끝 -->
+
+				
+				               
+					<h3 style="margin-top:50px; font-size:24px; font-weight:bold;">의미분석</h3>
+						<div class="part_mean">
+						    <!-- 지표설명 -->									
+							
+							    <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 지표설명</h3>
+				              	<ul class="h7_ul lmar_30">			              	
+				              		
+
+
+
+
+<p>
+   <b>[지표설명]</b>
+</p>
+<p>
+   <span style='text-align: justify; color: navy; line-height: 12pt; letter-spacing: 0pt; font-family: "굴림"; font-weight: bold;'><b><span style="color: navy;">■ 지역별 인구 및 인구밀도의 개념</span></b></span>
+</p>
+<p>
+   <b>&nbsp;</b>
+</p>
+<p style="text-indent: -16px; margin-left: 16px;">&nbsp;° <span style="color: black;">&nbsp;</span><span style='text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: "굴림";'>지역별 인구란 각 지역별로 거주하는 인구를 의미하며 지역별 인구밀도란 각 지역의 인구를 그 지역의 면적으로 나눈 값으로 1</span>㎢<span style='text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: "굴림";'>당 거주하는 인구가 몇 명인지를 의미함</span>.</p>
+<p style="text-indent: -16px; margin-left: 16px;">&nbsp;</p>
+<p>
+   <b><span style="color: navy;">■ 지역별 인구 및 인구밀도 지표 의의 및 활용도</span></b>
+</p>
+<p>&nbsp;</p>
+<p style="text-indent: -16px; margin-left: 16px;">
+   <span>&nbsp;° &nbsp;통계청의 </span><span style="color: green;"><u>장래인구추계와 국토교통부 지적통계에 근거한 지표</u></span><span>로&nbsp;</span><span style="color: green;">장·단기 국가 및 지역 발전 계획수립과 향후 인구와 관련된 각종 경제·사회지표를 작성하기 위한 기초자료</span><span>로서의 의의를 가짐.</span>
+</p>
+<p style="text-indent: -16px; margin-left: 16px;">&nbsp;</p>
+<p style="margin: 0px 0pt; text-align: justify; color: navy; line-height: 150%; text-indent: 0pt; font-family: 굴림; font-size: 10pt;">
+   <span style='text-align: justify; color: navy; line-height: 12pt; letter-spacing: 0pt; font-family: "굴림"; font-weight: bold;'><b><span style="color: navy;">■ </span></b></span><b><span style="color: navy;">지역별 </span></b><span style='text-align: justify; color: navy; line-height: 12pt; letter-spacing: 0pt; font-family: "굴림"; font-weight: bold;'><b><span style="color: navy;">수치해석방법</span></b></span>
+</p>
+<p style='margin: 0px 0pt; text-align: justify; color: navy; line-height: 150%; text-indent: 0pt; font-family: "굴림"; font-size: 10pt;'>
+   <b>&nbsp;</b>
+</p>
+<p style="margin: 0px 0pt 0px 12pt; text-align: justify; color: black; line-height: 150%; text-indent: -12pt; font-family: 굴림; font-size: 9pt;">
+   <span style="text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: 굴림;">&nbsp;° </span>지역별 인구 통계자료의 단위는 천 명이며, 2020년 서울시의 인구는 약 960만&nbsp;명임.
+</p>
+<p style="margin: 0px 0pt 0px 12pt; text-align: justify; color: black; line-height: 150%; text-indent: -12pt; font-family: 굴림; font-size: 9pt;">&nbsp; -&nbsp;&nbsp;<span style="text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: 굴림;">인구밀도 통계자료의 단위는 명/</span><span style="text-align: justify; color: black; line-height: 12pt; letter-spacing: 0pt; font-family: 바탕;">㎢</span><span style="text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: 굴림;">으로 2020년 서울시에는 1</span><span style="text-align: justify; color: black; line-height: 12pt; letter-spacing: 0pt; font-family: 바탕;">㎢</span><span style="text-align: justify; color: black; line-height: 10.8pt; letter-spacing: 0pt; font-family: 굴림;">당 15,865명이 살고 있음을 알 수 있음</span>.<span style="text-align: justify; color: black; line-height: 16pt; letter-spacing: 0pt; font-family: 한컴바탕;"><br></span></p>
+
+
+							<!-- 지표해석 -->
+							
+							    <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 지표해석</h3>
+				              		
+
+
+
+
+<!-- ------------------------------------------
+   e나라지표 : 통계표의 의미분석 파일입니다.
+  --------------------------------------------
+     지표명 :
+     통계표명 :
+     부처 :
+     작성자 :
+     작성일 :
+  ------------------------------------------ --><!--title>국가채권추이 의미분석 : e-나라지표</title-->
+<p style="margin: 0px; text-align: justify; color: black; line-height: 150%; text-indent: 0pt; font-family: 한컴바탕; font-size: 10pt;">
+   <b>[지표해석]</b>
+</p>
+<p>
+   <br>
+</p>
+<p>
+   <b>■ 지역별 인구 및 인구밀도 추세</b>
+</p>
+<p>
+   <br>
+</p>
+<p style="text-indent: -16px; margin-left: 16px;">
+   <b>&nbsp;°&nbsp;&nbsp;&nbsp;인구</b>
+</p>
+<p style="text-indent: -26px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;- &nbsp;2011년 이후 서울, 부산, 대구의 인구는 감소추세에 있음. </p>
+<p style="text-indent: -26px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이는 &nbsp;해당지역의 자연증가(=출생아 - 사망자)보다 인구이동에 의한 인구유출이 더 많기 때문임.</p>
+<p style="line-height: 150%; text-indent: -26px; margin-top: 0px; margin-bottom: 0px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;2020년 수도권의 인구는 전국 인구의 50.1%에 해당하는 2,596만 명으로 수도권으로의 인구집중이 심화되었음.</p>
+<p style="line-height: 150%; text-indent: -26px; margin-top: 0px; margin-bottom: 0px; margin-left: 26px;">
+   <b>&nbsp;</b>
+</p>
+<p style="text-indent: -16px; margin-left: 16px;">
+   <b>&nbsp;°&nbsp;&nbsp;&nbsp;인구밀도 </b>
+</p>
+<p style="text-indent: -26px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2011년 이후 서울, 부산, 대구의 인구밀도는 감소추세이며,&nbsp;세종, 경기, 충북, 충남,&nbsp;제주&nbsp;등의&nbsp;인구밀도는 증가추세임.</p>
+<p style="text-indent: -26px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권으로의 지속적인 인구유입으로 수도권의 인구밀도는&nbsp;증가추세이며, 2010년 대비 2020년 인구밀도는&nbsp;118명/㎢ 증가함.</p>
+<p style="text-indent: -26px; margin-left: 26px;">&nbsp;&nbsp;&nbsp;&nbsp;- 2020년 기준 시도별&nbsp;인구밀도를 보면 서울(15,865명/㎢), 부산(4,342명/㎢) 등은&nbsp;높고, 강원(90명/㎢), 경북(140명/㎢) 등은 낮음</p>
+<p style="line-height: 150%; text-indent: -26px; margin-top: 0px; margin-bottom: 0px; margin-left: 26px;">&nbsp;</p>
+<p>
+   <br>
+</p>
+<p>
+   <b>■ 세계 주요국가 인구밀도</b>
+</p>
+<p>
+   <br>
+</p>
+<p style="text-indent: -16px; margin-left: 16px;">&nbsp;° &nbsp;&nbsp;2019년 우리나라의 인구밀도는 515명으로 세계 24위 수준임.</p>
+<div>
+   <table style="border: 1px currentColor; border-image: none; width: 95%; border-collapse: collapse;"><caption style="height: 0px; font-size: 0px; visibility: hidden;">세계 주요 국가의 인구밀도</caption>
+      <thead>
+         <tr style="height: 30px;">
+            <th style="background: rgb(243, 243, 243); padding: 0px 7px; border: 1px solid black; border-image: none; width: 294px; height: 30px;">
+               <p style="text-align: center;">국가명</p>
+               </th>
+            <th style="background: rgb(243, 243, 243); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 9pt;"><b>인구밀도(명/㎢)</b></span>
+               </p>
+               </th>
+            <th style="background: rgb(243, 243, 243); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 9pt;"><b>국가명</b></span>
+               </p>
+               </th>
+            <th style="background: rgb(243, 243, 243); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 9pt;"><b>인구밀도(명/㎢)</b></span>
+               </p>
+               </th>
+            </tr>
+         </thead>
+      <tbody>
+         <tr style="height: 30px;">
+            <td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">한국</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">515</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">이탈리아</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">206</p>
+               </td>
+            </tr>
+         <tr style="height: 30px;">
+            <td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">인도</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">460</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">중국</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">153</p>
+               </td>
+            </tr>
+         <tr style="height: 30px;">
+            <td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">일본</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">348</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">프랑스</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">119</p>
+               </td>
+            </tr>
+         <tr style="height: 30px;">
+            <td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">영국</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">279</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">미국</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">36</p>
+               </td>
+            </tr>
+         <tr style="height: 30px;">
+            <td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">독일</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">240</p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">
+                  <span style="font-size: 10pt;">&nbsp;</span>
+               </p>
+               </td>
+            <td style="border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: black; padding: 0px 7px; width: 294px; height: 30px;">
+               <p style="text-align: center; line-height: 150%; margin-top: 0px; margin-bottom: 0px;">
+                  <span style="font-size: 10pt;">&nbsp;</span>
+               </p>
+               </td>
+            </tr>
+         <tr style="height: 24px;">
+            <td style="padding: 0px 7px; border: black; border-image: none; width: 1176px; height: 24px;" colspan="4">
+               <p style="text-align: justify;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 8pt;">출처: UN,「World Population Prospects 2019 Revision」, 2019</span>
+               </p>
+               <p style="text-align: justify;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 8pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;통계청, 장래인구추계 전국편 : 2017-2067, 2019년</span>
+               </p>
+               <p style="text-align: justify;">
+                  <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 8pt;">주) 한국은 통계청 장래인구추계 기준임</span>
+               </p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+<p>
+   <br>
+</p>
+<p><b>■ 향후 전망 및 정책방향</b></p>
+<p><b>&nbsp;°&nbsp;&nbsp;인구 전망(만 명)</b></p>
+<p>&nbsp;</p>
+<table style="border: 1px solid rgb(0, 0, 0); border-image: none; width: 100%; border-collapse: collapse;" bgcolor="#ffffff">
+   <tbody>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none;" bgcolor="#cccccc">
+            <p style="text-align: center;"><strong>시도</strong></p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" bgcolor="#cccccc">
+            <p style="text-align: center; line-height: 1;"><strong>2017년</strong></p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" bgcolor="#cccccc">
+            <p style="text-align: center; line-height: 1;"><strong>2020년</strong></p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" bgcolor="#cccccc">
+            <p style="text-align: center;"><strong>2030년</strong></p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" bgcolor="#cccccc">
+            <p style="text-align: center;">
+               <strong>2040년</strong>
+            </p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" bgcolor="#cccccc" colspan="2">
+            <p style="text-align: center;">
+               <strong>2047년</strong>
+            </p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">전국</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">5,136</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">5,178</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">5,193</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">5,086</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">4,891</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">서울</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">977</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">960</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">916</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">873</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">832</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">부산</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">342</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">334</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">311</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">289</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">268</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">대구</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">246</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">242</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">228</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">214</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">200</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">인천</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">292</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">295</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">303</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">303</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">295</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">광주</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">150</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">149</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">142</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">134</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">126</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">대전</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">153</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">150</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">144</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">139</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">133</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">울산</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">116</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">114</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">110</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">103</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">97</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">세종</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">27</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">35</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">48</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">56</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">59</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">경기</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">1,279</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">1,341</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">1,429</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">1,439</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">1,399</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">강원</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">152</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">152</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">152</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">151</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">147</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">충북</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">161</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">163</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">167</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">168</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">163</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">충남</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">215</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">220</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">232</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">236</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">232</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">전북</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">183</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">179</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">172</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">165</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">158</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">전남</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">180</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">176</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">172</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">167</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">161</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">경북</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">268</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">266</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">259</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">250</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">238</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">경남</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">334</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">335</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">332</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">320</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center; line-height: 1;">304</p>
+            </td>
+         </tr>
+      <tr>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">제주</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">63</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">67</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">75</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;">
+            <p style="text-align: center; line-height: 1;">79</p>
+            </td>
+         <td style="border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1;" colspan="2">
+            <p style="text-align: center;">78</p>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+<b>&nbsp;&nbsp; <span style="color: rgb(51, 51, 51); font-family: 돋움; font-size: 8pt;">출처: 통계청, 장래인구특별추계(시도편): 2017~2047, 2019년</span><br></b>
+<p>&nbsp;</p>
+<p>
+   <b>&nbsp;°&nbsp;&nbsp;</b>
+인구밀도 : 인구추세가&nbsp;맞다는 가정 하에 인천, 세종, 경기,&nbsp;제주의 인구밀도가 증가하며, 나머지 시도는 유사하거나 감소
+</p>
+
+
+							
+									<!--  
+					              	최근 갱신일 : 2021-04-09<br/>
+					              	-->
+								</ul>
+							
+						</div>
+	                <!----------- 의미분석 끝 ------------->
+				       
+					<!----------- 유의점 시작 ------------->
+	                <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 유의사항</h3>
+					
+						<ul class="h7_ul lmar_30">
+						<label id="result_ATTN_MTR" for="result_ATTN_MTR">장래인구추계 시도편은 2017년 인구총조사 결과를 기초로 2019년에 작성하여 발표한 결과입니다.</label>
+						</ul>					
+					
+	                <!----------- 유의점 끝 ------------->
+	
+	                <!----------- 관련용어 시작 -------------> 
+					<h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 용어해설</h3>
+					<ul class="h7_ul lmar_30">							
+						
+							<strong>지역면적</strong> : <label id="result_kornmDesc1" for="result_cntn">지적통계자료의 지역별 면적</label>
+						
+							<strong>인구밀도(명/㎢)</strong> : <label id="result_kornmDesc2" for="result_cntn">특정 지역의 단위면적당 인구의 크기를 나타내는 지표로 지역별 인구(시도별 추계인구)를 그 지역의 면적으로 나눈 값을 말한다</label>
+											
+					</ul>
+	                 <!----------- 관련용어 끝 ------------->	
+	                 
+	                   
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+            
+            <!--지표상세설명 영역 끝-->
+          
+          
+          			
+	          		<!--지표정보및 지표관련정보 영역 시작--> 
+	            	
+	            	<!-- 지표정보 시작 -->
+                     <h3 style="margin-top:50px; font-size:24px; font-weight:bold;">지표정보</h3>   
+                     <div class="clear"></div>
+                     
+                     <!----------- 작성방법 시작 ------------->                    
+                    <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 작성방법</h3>
+                    
+                        <ul class="h7_ul lmar_30">
+                        <label id="result_STTS_WRITE_MTHD_DESC" for="result_STTS_WRITE_MTHD_DESC">『장래인구추계 시도편』의 시도별 인구와 『지적통계』의 시도별 국토면적을 기초로 작성</label>
+                        </ul>                   
+                    
+                    <!----------- 작성방법 끝 ------------->  
+              			<h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 자료출처</h3>
+                    		<ul class="h7_ul_1">
+							출처 : 통계청『장래인구추계 시도편 : 2017-2047』, 국토교통부 『지적통계』<br/>
+							통계생산기관 : 통계청, 사회통계국, 인구동향과<br/>
+							통계주기 : 『장래인구추계 시도편 : 2017-2047』5년, 『지적통계』매년<br/>
+                       	</ul>
+		                        
+		                	
+								
+		                	
+	                			
+		                       
+		                	
+	           		<!--지표정보및 지표관련정보 영역 끝-->
+	           		
+	           		
+	           		
+	           		
+	           		 <!-- 정책정보 시작 -->
+                     <h3 style="margin-top:50px; font-size:24px; font-weight:bold;">정책정보</h3>    
+                     <div class="clear"></div>
+                     <!--  
+                     <h5 class="tmar_20">주요정책자료</h5>
+                     <ul class="h7_ul_1">
+                     
+                         
+                     
+
+
+
+
+
+
+
+		
+		시도별 장래인구특별추계(2017~2047).pdf<br/>
+	
+
+
+
+                     </ul>
+                     -->
+                     <!-- 관련법령 -->
+                     
+                     <h3 style="margin-top:30px; font-size:18px; font-weight:bold;"> ○ 관련사이트</h3>
+                     <ul class="h7_ul_1">                                                                
+                     
+                         e나라지표_국토현황 ( http://www.index.go.kr/egams/stts/jsp/potal/stts/PO_STTS_IdxMain.jsp?idx_cd=2728&bbs=INDX_001&clas_div=A )<br/>
+                     
+                         kosis 국가통계포털 ( http://kosis.kr )<br/>
+                     
+                     </ul>
+			</div>
+				           		
+            	</div>
+            </div>
+			<!-- /컨텐츠 끝 -->		
+<script>
+	$(document).ready(function(){
+        /* 지표설명 지표해석 삭제 */
+        $('.part_mean p').find(':contains("지표 설명")').hide();
+        $('.part_mean p').find(':contains("지표설명")').hide();
+        $('.part_mean p').find(':contains("지표 해석")').hide();
+        $('.part_mean p').find(':contains("지표해석")').hide();
+	});
+</script>
+</body>
+
+</html>
